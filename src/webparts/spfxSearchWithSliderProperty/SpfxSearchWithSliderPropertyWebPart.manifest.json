@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "1472b313-e683-4987-83e5-022d7545a3e3",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "1472b313-e683-4987-83e5-022d7545a3e3",
+    "group": { "default": "Under Development" },
+    "title": { "default": "SpfxSearchWithSliderProperty" },
+    "description": { "default": "spfx-search-with-slider-property description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "query": "Test",
+      "count": 5
+    }
+  }]
+}
